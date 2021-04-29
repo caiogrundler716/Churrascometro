@@ -8,3 +8,34 @@ body{
 
     background-image: url(churras.jpg);
 }
+.container{
+    text-align: center;
+   margin-top: 40px;
+   box-sizing: border-box;
+    
+}
+.dev{ 
+background-color: red;
+display: inline-block;
+padding: 10px;
+font-weight: 500;
+border-radius: 0 0 10px 10px;
+;
+}
+.churrasco{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: block;
+    margin: auto;
+    background-color: purple;
+    border-radius: 5px;
+    box-sizing: border-box;
+    max-width: 710px;
+}
+input{
+    width: 50%;
+}
+
+
