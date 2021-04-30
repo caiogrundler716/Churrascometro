@@ -1,41 +1,51 @@
-*{
-padding: 0;
-margin: 0;
-font-family: 'New Tegomin' , Arial, Helvetica, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "New Tegomin", Arial, Helvetica, sans-serif;
 }
 
-body{
-
-    background-image: url(churras.jpg);
+body {
+  background-image: url(churras.jpg);
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
 }
-.container{
-    text-align: center;
-   margin-top: 40px;
-   box-sizing: border-box;
-    
+.container {
+  max-width: 350px;
+  min-height: 500px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: purple;
+  padding: 20px;
+  border-radius: 10px;
 }
-.dev{ 
-background-color: red;
-display: inline-block;
-padding: 10px;
-font-weight: 500;
-border-radius: 0 0 10px 10px;
-;
-}
-.churrasco{
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    display: block;
-    margin: auto;
-    background-color: purple;
-    border-radius: 5px;
-    box-sizing: border-box;
-    max-width: 710px;
-}
-input{
-    width: 50%;
+.dev {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-weight: 20px;
+  border-radius: 0 0 10px 10px;
 }
 
+input {
+  width: 100%;
+  border-radius: 8px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
 
+button {
+  margin: 0 auto;
+  width: 30%;
+  padding: 10px;
+  background-color: black;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  border-radius: 10px;
+}
