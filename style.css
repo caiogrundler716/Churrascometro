@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body, input, button, a {
+  font-family: 'New Tegomin', sans-serif;
+}
+body {
+  font-size: 15px;
+  background-image: url('churras.jpg');
+  background-size: cover;
+}
+header {
+  padding: 20px;
+  color: navajowhite;
+  background-image: url('logo\ em\ cima.jpg');
+  background-size: cover;
+  background-position-y: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+header h1 {
+  font-weight: 200;
+  font-size: 1rem;
+  display: inline-block;
+}
+header h2 {
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+
+header img {
+  width: 30px;
+}
+
+.container {
+  padding: 12px 0 12px 0;
+  position: relative;
+  max-width: 500px;
+  height: 690px;
+  margin: 50px auto 0 auto;
+  background-color:white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 0px;
+}
+
+.container input {
+  font-size: 1rem;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding: 20px 10px 20px 10px;
+  margin-bottom: 8px;
+  border: 2px solid purple;
+  position: relative;
+
+}
+
+.container input:first-of-type {
+  margin-top: 30px;
+  position: relative;
+
+}
+
+.container input:focus {
+  background-color: yellow;
+  outline: none;
+  font-weight: bold;
+  position: relative;
+
+}
+.container p {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 7px;
+  position: relative;
+
+}
+
+.item {
+  background-color: #313120;
+  font-weight: bold;
+  color: #ac9a9a;
+  line-height: 30px;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.itemIcon {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.container button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: none;
+  color: black;
+  background-color:purple;
+  padding: 20px 0 20px 0;
+  font-weight: 100;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.buttonrecal{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border: none;
+  color: black;
+  background-color:purple;
+  padding: 20px 0 20px 0;
+  font-weight: 100;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.dev{
+  position: fixed;
+  bottom: 0;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #FFF;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(27, 27, 27);
+}
+
+
+@media screen and (min-width: 768px) {
+  
+  header h1 {
+      font-size: 2.5rem;
+  }
+  header h2 {
+      font-size: 1.5rem;
+  }
+}
+
