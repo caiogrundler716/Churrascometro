@@ -3,21 +3,25 @@
   padding: 0;
   box-sizing: border-box;
 }
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
-body, input, button, a {
-  font-family: 'New Tegomin', sans-serif;
+body,
+input,
+button,
+a {
+  font-family: "New Tegomin", sans-serif;
 }
 body {
   font-size: 15px;
-  background-image: url('churras.jpg');
+  background-image: url("churras.jpg");
   background-size: cover;
 }
 header {
   padding: 20px;
   color: navajowhite;
-  background-image: url('logo\ em\ cima.jpg');
+  background-image: url("logo\ em\ cima.jpg");
   background-size: cover;
   background-position-y: center;
 }
@@ -46,7 +50,7 @@ header img {
   max-width: 500px;
   height: 690px;
   margin: 50px auto 0 auto;
-  background-color:white;
+  background-color: white;
   border-top-left-radius: 30px;
   border-top-right-radius: 0px;
 }
@@ -61,13 +65,11 @@ header img {
   margin-bottom: 8px;
   border: 2px solid purple;
   position: relative;
-
 }
 
 .container input:first-of-type {
   margin-top: 30px;
   position: relative;
-
 }
 
 .container input:focus {
@@ -75,14 +77,12 @@ header img {
   outline: none;
   font-weight: bold;
   position: relative;
-
 }
 .container p {
   text-align: center;
   font-size: 1rem;
   margin-bottom: 7px;
   position: relative;
-
 }
 
 .item {
@@ -106,44 +106,41 @@ header img {
   width: 100%;
   border: none;
   color: black;
-  background-color:purple;
+  background-color: purple;
   padding: 20px 0 20px 0;
   font-weight: 100;
   font-size: 1rem;
   cursor: pointer;
 }
-.buttonrecal{
+.buttonrecal {
   position: absolute;
   bottom: 0;
   width: 100%;
   border: none;
   color: black;
-  background-color:purple;
+  background-color: purple;
   padding: 20px 0 20px 0;
   font-weight: 100;
   font-size: 1rem;
   cursor: pointer;
 }
 
-.dev{
+.dev {
   position: fixed;
   bottom: 0;
   margin-top: 10px;
   font-size: 0.9rem;
-  color: #FFF;
+  color: #fff;
   width: 100%;
   text-align: center;
   background-color: rgb(27, 27, 27);
 }
 
-
 @media screen and (min-width: 768px) {
-  
   header h1 {
-      font-size: 2.5rem;
+    font-size: 2.5rem;
   }
   header h2 {
-      font-size: 1.5rem;
+    font-size: 1.5rem;
   }
 }
-
