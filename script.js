@@ -18,12 +18,16 @@ function calcular() {
 
 
     let qdtTotalCarne = carnePP(duracao) * adultos + (carnePP(duracao) / 2 * criancas);
-    let qdtTotalCerveja = cervejaPP(duracao) * adultos;
-    let qdtTotalBebidas = bebidasPP(duracao) * adultos + (bebidasPP(duracao) / 2 * criancas);
+    let qdtTotalCerveja = cervejaPP`${duracao}` * `${adultos}`;
+    let qdtTotalBebidas = bebidasPP(duracao) * adultos
+        + (bebidasPP (duracao) / 2 * `${criancas}`);
 
-    resultado.innerHTML = `<p class="item"><img src="carne.png" alt="" class="itemIcon">${qdtTotalCarne / 1000} kg de Carne </p>`
-    resultado.innerHTML += `<p class="item"><img src="cerveja.png" alt="" class="itemIcon">${Math.ceil(qdtTotalCerveja / 355)} Latas de Cervejas</p>`
-    resultado.innerHTML += `<p class="item"><img src="refri.png" alt="" class="itemIcon">${Math.ceil(qdtTotalBebidas / 2000)} Pet's  2 L de Bebidas </p>`
+    resultado.innerHTML = `<p class="item"><img src="carne.png" alt="" class="itemIcon">
+    ${qdtTotalCarne / 1000} kg de Carne </p>`
+    resultado.innerHTML += `<p class="item"><img src="cerveja.png" alt="" class="itemIcon">
+    ${Math.ceil(qdtTotalCerveja / 355)} Latas de Cervejas</p>`
+    resultado.innerHTML += `<p class="item"><img src="refri.png" alt="" class="itemIcon">
+    ${Math.ceil(qdtTotalBebidas / 2000)} Pet's  2 L de Bebidas </p>`
 
 
 
